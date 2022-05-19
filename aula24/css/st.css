@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.paleta {
+    color: yellow;
+    color: cornflowerblue;
+    color: tomato;
+    color: steelblue;
+}
+
+:root {
+    font-size: 100%;
+    --cor-border-geral: steelblue;
+    --cor-padrao-fonte: cornflowerblue;
+    --font-padrao: verdana, arial;
+    --font-cor-titulo: tomato;
+}
+
+header, main, footer {
+    width: 80%;
+    margin: auto;
+}
+header#top {
+    border-bottom: 1px solid var(--cor-border-geral);
+    height: 60px;
+}
+
+.flex {
+    display: flex;
+}
+
+header#top h1, header#top nav {
+    width: 50%;
+}
+
+header#top h1 {
+    align-items: center;
+    color: var(--font-cor-titulo);
+    font-family: var(--font-padrao);
+    font-size: 2.4rem;
+}
+
+header#top nav ul {
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/* header#top nav {
+
+} */
+
+a.go:hover {
+    background-color: var(--font-cor-titulo);
+    color: #fff;
+    transition: 2s; /*tempo*/
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: var(--font-padrao);
+    color: var(--cor-padrao-fonte);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+section#section-cards {
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+section#section-cards div.cards {
+    width: 320px;
+    flex-grow: 1;
+    border: 1px solid red;
+
+}
+
+section#section-cards div.cards figure.card-img-pizza {
+    width: 100%;
+    height: auto;
+}
+section#section-cards div.cards figure.card-img-pizza img.img-pizza {
+    width: 100%;
+} 
+
+section div form.formTamanhoPizza label {
+    width: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: verdana;
+}
+
+section div form.formTamanhoPizza {
+    align-items: center;
+    justify-content: center;
+}
+
+h2.titulo {
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px 0 10px 0 ;
+
+}

@@ -1,0 +1,16 @@
+1. Como podemos definir uma URL, dê um exemplo.
+
+URL podemos definir como um conjunto de http, um endereço de dominio
+referencia onde está localizada uma pagina
+
+<a href "https://github.com/vitormonteiro55" target="blank" rel="extrenal" 
+repositório publico no Github</a></p>
+
+2. O que é  o HTTP?
+
+Um protocolo de comunica entre o navegador e o sevidor das paginas
+da internet
+
+3. O que são vendors em CSS?
+
+vendors= prefixo 
