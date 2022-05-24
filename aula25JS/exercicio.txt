@@ -1,0 +1,8 @@
+1- Esta afirmação está correta: "O JS é uma linguagem interpretada, portanto irá gerar
+um código fonte. Isto está correto". Explique 
+
+JS é uma linguagem interpretada, mais quem gerar o codigo fonte é os motores compilador 
+
+2- Ainda nos dias de hoje o JS só pode ser usado por meio de um browser. 
+
+Não é necessario apenas uso de navegador para utilizar o JS.

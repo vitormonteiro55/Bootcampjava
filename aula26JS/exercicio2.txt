@@ -1,0 +1,8 @@
+1- Qual foi a principal finalidade do JS desde sua criação ? 
+
+JS foi criado para interpretar e dar vida às paginas html
+
+2-Qual empresa originou o JS e quando isso aconteceu? 
+
+JS surgiu na década de 90.Origionou-se em uma empresa chamada 
+Netscape, que disponibilizava o navegador 
