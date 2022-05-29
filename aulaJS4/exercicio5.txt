@@ -1,0 +1,16 @@
+1. De um exemplo de uma variavel obedecendo uma boa pratica camelCase.
+
+ var potenciaDivisao 
+
+2.Por padrao,qual o tipo de dado atribuido a uma variavel quando esta nao recebe nenhum 
+valor ?
+vai receber undefined
+
+
+3. Quais sao as duas categorias de tipo de dados do JS ?
+
+Tipo primitivo e Nao primitivo 
+
+4. É verdade que o JS é uma linguagem serve-side? explique. 
+
+Nao é verdade, JS é uma linguagem cliente-side "do lado do cliente" 
