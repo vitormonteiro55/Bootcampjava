@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-padrao: Verdana, Arial;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+div#menu1 {
+    width: 250px;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+ul {
+    text-decoration: none;
+    align-items: center;
+}
+
+.ajuste-centro {
+    justify-content: center;
+    align-items: center;
+}
+
+.size {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+nav {
+    font-family: var(--font-padrao);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.size {
+    width: 30px;
+    height: 30px;
+    display: inline;
+}
