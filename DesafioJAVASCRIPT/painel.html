@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD
+    @48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD
+@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD
+@48,400,0,0" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="css/script.js"></script>
+    <title>Menu painel</title>
+</head>
+
+<body>
+    <main>
+        <div id="menu1">
+            <ul>
+                <li class="size"><a href="#cliente"></a>
+                    <nav><span class="material-symbols-outlined"> group_add</span>Cliente</nav>
+                </li>
+                <li class="size"><a href="#produto"></a>
+                    <nav><span class="material-symbols-outlined"> redeem</span>Produtos</nav>
+                </li>
+                <li class="size"><a href="#pedido"></a>
+                    <nav><span class="material-symbols-outlined"> shopping_cart </span>Pedidos</nav>
+                </li>
+            </ul>
+            <form method="post" name="formPanel">
+                //<ul id="ulListaClientes"></ul>
+                <div id="divCliente"> <!--ClassList.add-->
+                    <header>
+                        <label id="txtCli" class="txtCli"><b><u>Clientes</u></b></label>
+                        <input type="button" value="X" name="btnCli" id="btnCli" class="btns">
+                    </header>
+                    <label for="codCliente">Código</label>
+                    <input type="text" value="" name="codCliente" class="txtIn"  id="codCliente">
+                    <label for="nomeCliente">Nome</label>
+                    <input type="text" value="" name="nomeCliente" required class="txtIn">
+                    <label for="dataCadCli" class="txtIn"> Data Cadastro</label>
+                    <input type="text" value="__/__/____" name="dataCadCli" class="txtIn">
+                    <div id="rodape">
+                        <div id="seta">
+                            <input type="button" value="<" name="btnsetaVir" id="btnVir" class="btnSeta">
+                            <input type="button" value=">" name="btnsetaIr" id="btnIr" class="btnSeta">
+                        </div>
+                        <div id="botoes">
+                            <input type="button" value="Novo" name="btnNovo" id="btnNovo"  class="btnAcoes">
+                            <input type="button" value="Salvar" name="btnSalvar" id="btnSalvar" class="btnAcoes">
+                        </div>
+                    </div>
+                </div>
+                <div id="divProduto"> <!--ClassList.add-->
+                    <header>
+                        <label id="txtProd" class="txtProd"><b><u>Produtos</u></b></label>
+                        <input type="button" value="X" name="btnProd" id="btnProd" class="btns">
+                    </header>
+                    <label for="codProduto">Código</label>
+                    <input type="text" value="" name="codCliente" class="txtIn" >
+                    <label for="descricao">Descrição</label>
+                    <input type="text" value="" name="descricao" required class="txtIn">
+                    <label for="preco" class="txtIn"> Preço</label>
+                    <input type="text" value="" name="preco" class="txtIn">
+                    <label for="quantidade" class="txtIn"> Quantidade</label>
+                    <input type="text" value="" name="quantidade" class="txtIn">
+                    <div id="rodape">
+                        <div id="seta">
+                            <input type="button" value="<" name="btnsetaVir" id="btnVir" class="btnSeta">
+                            <input type="button" value=">" name="btnsetaIr" id="btnIr" class="btnSeta">
+                        </div>
+                        <div id="botoes">
+                            <input type="button" value="Novo" name="btnNovo" id="btnNovo"  class="btnAcoes">
+                            <input type="button" value="Salvar" name="btnSalvar" id="btnSalvar" class="btnAcoes">
+                        </div>
+                    </div>
+                </div>
+                <div id="divPedido"> <!--ClassList.add-->
+                    <header>
+                        <label id="txtPed" class="txtPed"><b><u>Pedidos</u></b></label>
+                        <input type="button" value="X" name="btnPed" id="btnPed" class="btns">
+                    </header>
+                    <label for="codCliente">Código do Cliente</label>
+                    <input type="text" value="" name="codCliente" class="txtIn" >
+                    <label for="nomeCliente">Cliente</label>
+                    <input type="text" value="" name="nomeCliente" class="txtIn" >
+                    
+                    <div id="divlocalizar">
+                        <label for="localizar"><b>Localizar Produto</b></label>
+                        <div id="divlocalizaProd">
+                            <input type="text" value="" name="descricao" class="txtCod">
+                            <input type="text" value="" name="preco" class="txtLoc">
+                            <input type="text" value="" name="quantidade" class="txtLoc">
+                        </div>
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

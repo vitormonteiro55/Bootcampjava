@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-padrao: Verdana, Arial;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+div#menu1 {
+    width: 250px;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+ul {
+    text-decoration: none;
+    align-items: center;
+}
+
+.ajuste-centro {
+    justify-content: center;
+    align-items: center;
+}
+
+.size {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+nav {
+    font-family: var(--font-padrao);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.size {
+    width: 30px;
+    height: 30px;
+    display: inline;
+}
+
+#Cliente, #Produto{
+    width: 480px;
+    margin: 150px auto;
+    border: 1px solid black;
+    
+}
+
+#Cliente{
+    height: 300px;
+}
+
+#Produto{
+    height: 350px;
+}
+
+#Pedido{
+    width: 650px;
+    margin: 150px auto;
+    border: 1px solid black;
+    height: auto;
+}
+
+#divlocalizar{
+    width: 89%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+ } 
+
+a{
+    width: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+}
+
+a:hover{
+    /* background-color: gold;  */
+    color: red;
+    
+}
+
+ul li{
+    width: 100%;
+    justify-content: left; 
+    list-style: none;
+    margin: 15px;
+}
+
+.btns{
+    width: 75%;
+    height: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    text-align: right;
+    background-color: white;
+}
+#txtCli, #txtProd, #txtPed{
+    width: 25%;
+    height: 20px;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 10px;
+    display: inline;
+   
+}
+
+label{
+    display: block;
+    width: 40%;
+    height: auto;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.txtIn{
+    width: 89%;
+    height: auto;
+    padding: 4px;
+    margin-left: 15px;
+}
+
+.txtLoc{
+    width: 40px;
+    height: 20px;
+    padding: 4px;
+}
+
+.txtCod{
+    width: 15px;
+    height: 20px;
+}
+
+#rodape{
+    width: 92%;
+    height: 30px;
+    margin: 15px;
+    display: flex;
+}
+
+#seta{
+    width: 40%;
+    height: 30px;
+    
+}
+
+#botoes{
+    width: 60%;
+    height: 30px;
+    
+}
+
+.btnSeta{
+    width: 60px;
+    height: 20px;
+    background-color: blue;
+}
+
+.btnAcoes{
+    width: 110px;
+    height: 20px;
+    background-color: blue;
+    margin-left: 10px;
+    
+}
+
+#divlocalizaProd{
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+}
